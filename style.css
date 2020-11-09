@@ -1,0 +1,159 @@
+#formTitle,
+#header li a {
+    font-weight: 700
+}
+
+#header li a,
+tr {
+    text-align: center
+}
+
+#header ul,
+ul {
+    list-style-type: none
+}
+
+body {
+    background-color: #690c02;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    color: #F8F8FF;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    height: 7.5em;
+    width: 100%;
+    background-color: #00BCD4
+}
+
+#body {
+    padding-bottom: 60px
+}
+
+#headerContent {
+    display: inline-block;
+    color: #000;
+    width: 100%
+}
+
+span.title h1 {
+    text-shadow: 0 4px 1px rgba(0, 0, 0, .2);
+    font-family: Lobster, cursive;
+    color: #212121;
+    padding-left: 15px
+}
+
+#header ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+}
+
+#header li {
+    float: left
+}
+
+#header li a {
+    display: block;
+    color: #F8F8FF;
+    padding: 10px 14px;
+    text-decoration: none
+}
+
+#header li a:hover {
+    background-color: #FF5722
+}
+
+a.inactiveLink {
+    pointer-events: none;
+}
+
+div.centerBox {
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto;
+    padding: .5em;
+    border-radius: 3px;
+    position: relative;
+    background-color: #a12727;
+	text-align:center;
+}
+
+div.topBox {
+    margin-top: 5%
+}
+
+div.textBox h3,
+p {
+    margin: 20px auto
+}
+
+div.textBox h3 {
+    color: #000000;
+	font-size:25px;
+}
+
+#numTeams,
+#players {
+    width: 250px;
+	text-align: center;
+}
+
+#userInputBox {
+    width: 500px;
+    margin: 0 auto;
+    background: #ed6f61;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 80%;
+    color: #000;
+	text-align: center;
+}
+
+#userInputTable {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+#teamGenSubmit {
+    width: 110px;
+    height: 50px;
+    margin: 0 auto
+}
+
+#wynik {
+	text-align: center;
+	color:#000000;
+	font-size:20px;
+}
+
+tr {
+    margin: 0
+}
+
+td {
+    padding-top: .6em;
+    padding-bottom: .6em
+}
+
+tr:nth-child(odd) {
+    background-color: #b8584d;
+	font-size:15px;
+}
+
+textarea {
+    resize: vertical;
+    width: auto;
+    height: auto
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}

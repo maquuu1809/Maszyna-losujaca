@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Generator drużyn</title>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1,width=device-width" name="viewport">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:300" rel="stylesheet">
+    <link rel="icon" type="image/png" href="foto/baner.png">
+</head>
+<body>
+    <div id="container">
+        <div id="body" class="bodyTopMargin">
+            <div class="centerBox topBox textBox">
+                <h3>Generator drużyn</h3>
+            </div>
+            <div id="inputDiv" class="centerBox">
+                <form id="userInputBox">
+                    <table id="userInputTable">
+                        <tr>
+                            <td colspan="2" id="formTitle">
+                                <h3>Wpisz imiona każdej osoby w odzielnej linijce</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Osoby:</label></td>
+                            <td><textarea id="players" rows="8" cols="15" placeholder="Piotr Nowak &#13;&#10;Kazimierz &#13;&#10;Jan Kowalski &#13;&#10;Zuzanna"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label>Liczba drużyn:</label></td>
+                            <td><input id="numTeams" type="number" placeholder="2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button id="teamGenSubmit" type="button">Generuj drużyny</button></td>
+                        </tr>
+                    </table>
+                </form>
+                <div id="wynik">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
