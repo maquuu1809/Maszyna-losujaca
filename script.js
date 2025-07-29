@@ -18,7 +18,7 @@ $(document).ready(function() {
         for (var t=0; t<n.length; t++) /\S/.test(n[t]) && l.push($.trim(n[t]));
         var a=$("#numTeams").val();
         if (l.length<3) return window.alert("Wymagane jest podanie co najmiej 3 imion do wylosowania drużyn."), void $("#players").focus();
-        if (a<2 || a>l.length-1) return window.alert("Liczba drużyn musi wynosić 2 lub tyle, ile jest osób -1."), void $("#numTeams").focus();
+        if (a<2 || a>l.length-1) return window.alert("Liczba drużyn musi wynosić 2 lub tyle, ile jest osób minus 1."), void $("#numTeams").focus();
         if (e(l), l.length%a!=0) {
             for (var r=Math.ceil(l.length/a), s=Math.floor((l.length-r)/(a-1)), i=Math.floor(l.length/r), o=a-i; i*r+o*s!=l.length;) i*r+o*s<l.length ? (i++, o--) : (i--, o++);
             for (var u=1, t=0; t<i*r; t+=r) {
