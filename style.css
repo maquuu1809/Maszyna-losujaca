@@ -126,6 +126,10 @@ div.textBox h3 {
     margin: 0 auto
 }
 
+#teamGenSubmit.parent {
+  text-align: center;
+}
+
 #wynik {
 	text-align: center;
 	color:#000000;
